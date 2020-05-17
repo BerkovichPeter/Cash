@@ -46,7 +46,7 @@ int main(void) {
 	//Создали очередь из кол-ва запросов
 	struct node_t* queue =  create_queue(quest);
 
-	// Создаем пустую хэш таблицы
+	// Создаем пустую хэш таблицу
 	create_hash(cash_len, &hash_t);
 
 	for (int i = 0; i < quest;i++) {
